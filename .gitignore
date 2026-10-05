@@ -1,0 +1,21 @@
+# Python & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment & Secrets (NEVER commit these)
+.env
+.venv/
+env/
+venv/
+.streamlit/secrets.toml
+
+# OS & Temp files
+.DS_Store
+Thumbs.db
+temp_*.png
+temp_*.jpg
+*.log
+
+# Test files
+test_inference.py
